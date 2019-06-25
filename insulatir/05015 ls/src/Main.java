@@ -50,7 +50,10 @@ public class Main {
 			}
 		}
 		if (W.charAt(w) == '*') {
-			
+			if (match(w+1, s) || (s < S.length() && match(w, s+1))) {
+				cache[w][s] = 1;
+				return true;
+			}
 		}
 	}
 }
