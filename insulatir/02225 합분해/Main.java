@@ -5,6 +5,7 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		
 		int N = scan.nextInt();
+		int K = scan.nextInt();
 		
 		scan.close();
 	}
