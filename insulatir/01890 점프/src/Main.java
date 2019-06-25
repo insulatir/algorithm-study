@@ -23,5 +23,8 @@ public class Main {
 		if (y >= n || x >= n) {
 			return 0;
 		}
+		if (y == n-1 && x == n-1) {
+			return 1;
+		}
 	}
 }
