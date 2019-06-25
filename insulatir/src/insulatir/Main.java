@@ -9,6 +9,7 @@ public class Main {
 		
 		int n = scan.nextInt();
 		int[] array = new int[n];
+		int[][] len = new int[2][n];
 		
 		scan.close();
 	}
