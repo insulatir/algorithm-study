@@ -20,4 +20,8 @@ public class Main {
 		scan.close();
 	}
 
+	
+	public static boolean match(int w, int s) {
+		
+	}
 }
