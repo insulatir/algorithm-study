@@ -12,6 +12,10 @@ public class Main {
 		int[][] len = new int[2][n];
 		int[] lens = new int[n];
 		
+		for (int i = 0; i < n; i++) {
+			array[i] = scan.nextInt();
+		}
+		
 		scan.close();
 	}
 
