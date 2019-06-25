@@ -20,6 +20,8 @@ public class Main {
 	}
 
 	public static long jump(int y, int x) {
-		
+		if (y >= n || x >= n) {
+			return 0;
+		}
 	}
 }
