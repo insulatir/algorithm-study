@@ -31,7 +31,13 @@ public class Main {
 		}
 		
 		while (s < S.length() && w < W.length() && (W.charAt(w) == S.charAt(s))) {
-			
+			if (match(w+1, s+1)) {
+				cache[w][s] = 1;
+				return true;
+			} else {
+				cache[w][s] = 0;
+				return false;
+			}
 		}
 	}
 }
