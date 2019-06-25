@@ -34,6 +34,6 @@ public class Main {
 			return 0;
 		}
 		cache[y][x] = jump(y, x + jumpSize) + jump(y + jumpSize, x);
-		
+		return cache[y][x];
 	}
 }
