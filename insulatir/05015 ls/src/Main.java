@@ -8,6 +8,9 @@ public class Main {
 		
 		W = scan.next();
 		int N = scan.nextInt();
+		for (int i = 0; i < N; i++) {
+			S = scan.next();
+		}
 		
 		scan.close();
 	}
