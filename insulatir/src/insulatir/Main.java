@@ -51,6 +51,8 @@ public class Main {
 		
 		Arrays.sort(lens);
 		
+		System.out.println(lens[lens.length-1]);
+		
 		scan.close();
 	}
 
