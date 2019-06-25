@@ -1,5 +1,3 @@
-package insulatir;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
