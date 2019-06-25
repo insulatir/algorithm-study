@@ -8,6 +8,7 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		
 		int n = scan.nextInt();
+		int[] array = new int[n];
 		
 		scan.close();
 	}
