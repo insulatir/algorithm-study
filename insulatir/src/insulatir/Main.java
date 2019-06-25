@@ -30,6 +30,20 @@ public class Main {
 			}
 		}
 		
+		for (int i = n - 1; i >= 0; i--) {
+			if (len[1][i] == 0) {
+				len[1][i] = 1;
+			}
+			
+			for (int j = n - 1; j > i; j--) {
+				if (array[i] > array[j]) {
+					if (len[1][i] < len[1][j] + 1) {
+						len[1][i] = len[1][j] + 1;
+					}
+				}
+			}
+		}
+		
 		scan.close();
 	}
 
