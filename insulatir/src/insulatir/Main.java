@@ -44,6 +44,10 @@ public class Main {
 			}
 		}
 		
+		for (int i = 0; i < n; i++) {
+			lens[i] = len[0][i] + len[1][i] - 1;
+		}
+		
 		scan.close();
 	}
 
