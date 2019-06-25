@@ -29,5 +29,9 @@ public class Main {
 				return false;
 			}
 		}
+		
+		while (s < S.length() && w < W.length() && (W.charAt(w) == S.charAt(s))) {
+			
+		}
 	}
 }
