@@ -6,6 +6,7 @@ public class Main {
 		
 		int N = scan.nextInt();
 		int K = scan.nextInt();
+		int[][] array = new int[N + 1][K + 1];
 		
 		scan.close();
 	}
