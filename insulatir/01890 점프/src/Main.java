@@ -33,5 +33,7 @@ public class Main {
 		if (jumpSize == 0) {
 			return 0;
 		}
+		cache[y][x] = jump(y, x + jumpSize) + jump(y + jumpSize, x);
+		
 	}
 }
