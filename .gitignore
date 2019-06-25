@@ -4,6 +4,11 @@ insulatir/.project
 insulatir/11054 가장 긴 바이토닉 부분 수열/.classpath
 insulatir/11054 가장 긴 바이토닉 부분 수열/.project
 insulatir/11054 가장 긴 바이토닉 부분 수열/.settings/org.eclipse.jdt.core.prefs
+<<<<<<< HEAD
 *.project
 *.prefs
+=======
+*.prefs
+*.project
+>>>>>>> shinwoon
 *.classpath
