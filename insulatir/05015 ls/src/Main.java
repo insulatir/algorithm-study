@@ -55,5 +55,8 @@ public class Main {
 				return true;
 			}
 		}
+		
+		cache[w][s] = 0;
+		return false;
 	}
 }
