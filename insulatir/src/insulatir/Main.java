@@ -20,6 +20,10 @@ public class Main {
 			if (len[0][i] == 0) {
 				len[0][i] = 1;
 			}					
+			
+			for (int j = 0; j < i; j++) {
+				
+			}
 		}
 		
 		scan.close();
