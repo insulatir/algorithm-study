@@ -15,6 +15,10 @@ public class Main {
 					cache[j][k] = -1;
 				}
 			}
+			
+			if (match(0, 0)) {
+				System.out.println(S);
+			}
 		}
 		
 		scan.close();
