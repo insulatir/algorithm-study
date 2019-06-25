@@ -16,6 +16,10 @@ public class Main {
 			array[i] = scan.nextInt();
 		}
 		
+		for (int i = 0; i < n; i++) {
+							
+		}
+		
 		scan.close();
 	}
 
