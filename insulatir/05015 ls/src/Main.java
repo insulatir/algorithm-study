@@ -49,5 +49,8 @@ public class Main {
 				return false;
 			}
 		}
+		if (W.charAt(w) == '*') {
+			
+		}
 	}
 }
