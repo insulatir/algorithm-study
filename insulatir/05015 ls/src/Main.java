@@ -22,6 +22,12 @@ public class Main {
 
 	
 	public static boolean match(int w, int s) {
-		
+		if (cache[w][s] != -1) {
+			if (cache[w][s] == 1) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 	}
 }
