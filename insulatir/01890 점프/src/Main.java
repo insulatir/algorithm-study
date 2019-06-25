@@ -19,4 +19,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static long jump(int y, int x) {
+		
+	}
 }
