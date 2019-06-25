@@ -39,5 +39,15 @@ public class Main {
 				return false;
 			}
 		}
+		
+		if (w == W.length()) {
+			if (s == S.length()) {
+				cache[w][s] = 1;
+				return true;
+			} else {
+				cache[w][s] = 0;
+				return false;
+			}
+		}
 	}
 }
