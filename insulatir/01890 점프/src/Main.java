@@ -30,5 +30,8 @@ public class Main {
 			return cache[y][x];
 		}
 		int jumpSize = board[y][x];
+		if (jumpSize == 0) {
+			return 0;
+		}
 	}
 }
