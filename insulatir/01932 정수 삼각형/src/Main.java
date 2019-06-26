@@ -7,6 +7,7 @@ public class Main {
 		
 		int n = Integer.parseInt(br.readLine());
 		int[][] tri = new int[n][n];
+		int[][] sum = new int[n][n];
 		
 		bw.flush();
 		bw.close();
