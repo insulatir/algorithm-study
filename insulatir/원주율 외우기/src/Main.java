@@ -30,7 +30,7 @@ public class Main {
 		cache[begin] = INF;
 		for (int L = 3; L <= 5; L++) {
 			if (begin + L <= N.length()) {
-				
+				cache[begin] = Math.min(cache[begin], memorize(begin + L) + classify(begin, begin + L - 1));
 			}
 		}
 	}
