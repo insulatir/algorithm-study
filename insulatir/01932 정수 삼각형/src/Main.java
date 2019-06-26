@@ -36,6 +36,7 @@ public class Main {
 			}
 		}
 		
+		bw.write(m + "");
 		bw.flush();
 		bw.close();
 	}
