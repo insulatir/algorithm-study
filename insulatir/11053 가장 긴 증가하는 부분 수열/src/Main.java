@@ -8,6 +8,10 @@ public class Main {
 		int[] array = new int[n];
 		int[] len = new int[n];
 		
+		for(int i = 0; i < n; i++) {
+			array[i] = scan.nextInt();
+		}
+		
 		scan.close();
 	}
 
