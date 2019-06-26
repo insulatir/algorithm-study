@@ -71,5 +71,7 @@ public class Main {
 		if (progressive) {
 			return 5;
 		}
+		
+		return 10;
 	}
 }
