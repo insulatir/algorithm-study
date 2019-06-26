@@ -19,6 +19,8 @@ public class Main {
 	}
 
 	public static int memorize(int begin) {
-		
+		if (begin == N.length()) {
+			return 0;
+		}
 	}
 }
