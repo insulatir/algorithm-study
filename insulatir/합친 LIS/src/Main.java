@@ -49,7 +49,7 @@ public class Main {
 		}
 		for (int nextB = indexB + 1; nextB < m; nextB++) {
 			if (maxElement < B[nextB]) {
-				
+				cache[indexA+1][indexB+1] = Integer.max(cache[indexA+1][indexB+1], jlis(indexA, nextB) + 1);
 			}
 		}
 	}
