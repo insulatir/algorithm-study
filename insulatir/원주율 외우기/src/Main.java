@@ -29,7 +29,9 @@ public class Main {
 		
 		cache[begin] = INF;
 		for (int L = 3; L <= 5; L++) {
-			
+			if (begin + L <= N.length()) {
+				
+			}
 		}
 	}
 }
