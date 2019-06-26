@@ -47,5 +47,7 @@ public class Main {
 		if (M.equals(Ms)) {
 			return 1;
 		}
+		
+		boolean progressive = true;
 	}
 }
