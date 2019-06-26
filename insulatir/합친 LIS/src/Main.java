@@ -52,5 +52,7 @@ public class Main {
 				cache[indexA+1][indexB+1] = Integer.max(cache[indexA+1][indexB+1], jlis(indexA, nextB) + 1);
 			}
 		}
+		
+		return cache[indexA+1][indexB+1];
 	}
 }
