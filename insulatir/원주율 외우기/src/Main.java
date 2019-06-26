@@ -59,5 +59,13 @@ public class Main {
 		}
 		
 		boolean alternating = true;
+		for (int i = 0; i < M.length(); i++) {
+			if (M.charAt(i) != M.charAt(i%2)) {
+				alternating = false;
+			}
+		}
+		if (alternating) {
+			return 4;
+		}
 	}
 }
