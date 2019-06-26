@@ -37,5 +37,9 @@ public class Main {
 			return cache[indexA+1][indexB+1];
 		}
 		cache[indexA+1][indexB+1] = 2;
+		
+		long a = (indexA == -1 ? NEGINF : A[indexA]);
+		long b = (indexB == -1 ? NEGINF : B[indexB]);
+		long maxElement = Long.max(a, b);
 	}
 }
