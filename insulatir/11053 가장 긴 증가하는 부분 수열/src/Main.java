@@ -28,6 +28,7 @@ public class Main {
 		}
 		
 		Arrays.sort(len);
+		System.out.print(len[len.length-1]);
 		
 		scan.close();
 	}
