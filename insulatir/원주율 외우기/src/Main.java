@@ -39,5 +39,13 @@ public class Main {
 	
 	public static int classify(int a, int b) {
 		String M = N.substring(a, b+1);
+		
+		String Ms = "";
+		for (int i = 0; i < M.length(); i++) {
+			Ms += Character.toString(M.charAt(0));
+		}
+		if (M.equals(Ms)) {
+			return 1;
+		}
 	}
 }
