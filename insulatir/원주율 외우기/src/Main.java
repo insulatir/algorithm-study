@@ -22,5 +22,9 @@ public class Main {
 		if (begin == N.length()) {
 			return 0;
 		}
+		
+		if (cache[begin] != -1) {
+			return cache[begin];
+		}
 	}
 }
