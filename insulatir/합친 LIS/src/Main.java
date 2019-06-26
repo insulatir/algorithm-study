@@ -47,5 +47,8 @@ public class Main {
 				cache[indexA+1][indexB+1] = Integer.max(cache[indexA+1][indexB+1], jlis(nextA, indexB) + 1);
 			}
 		}
+		for (int nextB = indexB + 1; nextB < m; nextB++) {
+			
+		}
 	}
 }
