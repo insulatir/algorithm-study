@@ -26,5 +26,7 @@ public class Main {
 		if (cache[begin] != -1) {
 			return cache[begin];
 		}
+		
+		cache[begin] = INF;
 	}
 }
