@@ -26,7 +26,7 @@ public class Main {
 				}
 			}
 			
-			
+			System.out.println(jlis(-1, -1) - 2);
 		}
 		
 		scan.close();
