@@ -16,6 +16,8 @@ public class Main {
 			cache[j] = -1;
 		}
 		
+		System.out.println(memorize(0));
+		
 		scan.close();
 	}
 
