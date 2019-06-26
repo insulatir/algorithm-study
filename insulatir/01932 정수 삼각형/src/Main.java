@@ -30,6 +30,12 @@ public class Main {
 			}
 		}
 		
+		for(int i = 0; i < n; i++) {
+			if(m < sum[n-1][i]) {
+				m = sum[n-1][i];
+			}
+		}
+		
 		bw.flush();
 		bw.close();
 	}
