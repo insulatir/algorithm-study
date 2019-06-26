@@ -36,4 +36,8 @@ public class Main {
 		
 		return cache[begin];
 	}
+	
+	public static int classify(int a, int b) {
+		
+	}
 }
