@@ -17,6 +17,8 @@ public class Main {
 			}
 		}
 		
+		sum[0][0] = tri[0][0];
+		
 		bw.flush();
 		bw.close();
 	}
