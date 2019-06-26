@@ -49,5 +49,13 @@ public class Main {
 		}
 		
 		boolean progressive = true;
+		for (int i = 0; i < M.length()-1; i++) {
+			if ((int) M.charAt(i+1) - (int) M.charAt(i) != (int) M.charAt(1) - (int) M.charAt(0)) {
+				progressive = false;
+			}
+		}
+		if (progressive && Math.abs((int) M.charAt(1) - (int) M.charAt(0)) == 1) {
+			return 2;
+		}
 	}
 }
