@@ -67,5 +67,9 @@ public class Main {
 		if (alternating) {
 			return 4;
 		}
+		
+		if (progressive) {
+			return 5;
+		}
 	}
 }
