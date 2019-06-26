@@ -5,6 +5,7 @@ public class Main {
 	static long[] A = new long[100];
 	static long[] B = new long[100];
 	static int[][] cache = new int[101][101];
+	static long NEGINF = Long.MIN_VALUE;
 	
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
