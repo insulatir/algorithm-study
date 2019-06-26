@@ -41,5 +41,9 @@ public class Main {
 		long a = (indexA == -1 ? NEGINF : A[indexA]);
 		long b = (indexB == -1 ? NEGINF : B[indexB]);
 		long maxElement = Long.max(a, b);
+		
+		for (int nextA = indexA + 1; nextA < n; nextA++) {
+			
+		}
 	}
 }
