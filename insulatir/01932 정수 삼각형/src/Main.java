@@ -22,6 +22,8 @@ public class Main {
 			for(int j = 0; j <= i; j++) {
 				if(j == 0) {
 					sum[i][j] += sum[i-1][j] + tri[i][j];
+				} else if(j == i) {
+					sum[i][j] += sum[i-1][j-1] + tri[i][j];
 				}
 			}
 		}
