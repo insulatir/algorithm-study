@@ -12,7 +12,9 @@ public class Main {
 		
 		for(int i = 0; i < n; i++) {
 			String[] array = br.readLine().split(" ");
-			
+			for(int j = 0; j <= i; j++) {
+				tri[i][j] = Integer.parseInt(array[j]);
+			}
 		}
 		
 		bw.flush();
