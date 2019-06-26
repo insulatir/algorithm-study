@@ -6,6 +6,7 @@ public class Main {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int n = Integer.parseInt(br.readLine());
+		int[][] tri = new int[n][n];
 		
 		bw.flush();
 		bw.close();
