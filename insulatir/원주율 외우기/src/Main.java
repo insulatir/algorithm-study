@@ -57,5 +57,7 @@ public class Main {
 		if (progressive && Math.abs((int) M.charAt(1) - (int) M.charAt(0)) == 1) {
 			return 2;
 		}
+		
+		boolean alternating = true;
 	}
 }
