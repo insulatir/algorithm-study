@@ -35,5 +35,6 @@ public class Main {
 		if (cache[indexA+1][indexB+1] != -1) {
 			return cache[indexA+1][indexB+1];
 		}
+		cache[indexA+1][indexB+1] = 2;
 	}
 }
