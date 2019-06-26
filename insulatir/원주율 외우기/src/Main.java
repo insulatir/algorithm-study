@@ -38,6 +38,6 @@ public class Main {
 	}
 	
 	public static int classify(int a, int b) {
-		
+		String M = N.substring(a, b+1);
 	}
 }
