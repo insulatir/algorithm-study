@@ -10,6 +10,11 @@ public class Main {
 		int[][] sum = new int[n][n];
 		int m = 0;
 		
+		for(int i = 0; i < n; i++) {
+			String[] array = br.readLine().split(" ");
+			
+		}
+		
 		bw.flush();
 		bw.close();
 	}
