@@ -16,6 +16,10 @@ public class Main {
 			if(len[i] == 0) {
 				len[i] = 1;
 			}
+			
+			for(int j = 0; j < i; j++) {
+				
+			}
 		}
 		
 		scan.close();
