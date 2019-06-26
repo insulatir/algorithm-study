@@ -33,5 +33,7 @@ public class Main {
 				cache[begin] = Math.min(cache[begin], memorize(begin + L) + classify(begin, begin + L - 1));
 			}
 		}
+		
+		return cache[begin];
 	}
 }
