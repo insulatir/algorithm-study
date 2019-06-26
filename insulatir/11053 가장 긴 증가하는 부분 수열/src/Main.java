@@ -6,6 +6,7 @@ public class Main {
 		
 		int n = scan.nextInt();
 		int[] array = new int[n];
+		int[] len = new int[n];
 		
 		scan.close();
 	}
