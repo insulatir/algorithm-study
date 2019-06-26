@@ -18,4 +18,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static int memorize(int begin) {
+		
+	}
 }
