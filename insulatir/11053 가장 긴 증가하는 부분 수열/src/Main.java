@@ -19,7 +19,9 @@ public class Main {
 			
 			for(int j = 0; j < i; j++) {
 				if(array[i] > array[j]) {
-					
+					if(len[i] < len[j] + 1) {
+						
+					}
 				}
 			}
 		}
