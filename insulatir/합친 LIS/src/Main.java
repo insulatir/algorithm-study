@@ -43,7 +43,9 @@ public class Main {
 		long maxElement = Long.max(a, b);
 		
 		for (int nextA = indexA + 1; nextA < n; nextA++) {
-			
+			if (maxElement < A[nextA]) {
+				
+			}
 		}
 	}
 }
