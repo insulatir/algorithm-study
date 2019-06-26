@@ -31,4 +31,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static int jlis(int indexA, int indexB) {
+		
+	}
 }
