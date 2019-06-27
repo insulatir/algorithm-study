@@ -41,5 +41,6 @@ public class Main {
 		int sum = pSum[hi] - (lo == 0 ? 0 : pSum[lo-1]);
 		int sqSum = pSqSum[hi] - (lo == 0 ? 0 : pSqSum[lo-1]);
 		int m = (int) (0.5 + (double) sum / (double) (hi - lo + 1));
+		int ret = sqSum - 2 * m * sum + m * m * (hi - lo + 1);
 	}
 }
