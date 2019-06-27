@@ -10,6 +10,7 @@ public class Main {
 		for (int i = 0; i < C; i++) {
 			n = scan.nextInt();
 			int S = scan.nextInt();
+			A = new int[n];
 		}
 		
 		scan.close();
