@@ -2,6 +2,7 @@ import java.util.*;
 public class Main {
 	static int n = 0;
 	static int[] A;
+	static int[][] cache = new int[101][11];
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -13,6 +14,11 @@ public class Main {
 			A = new int[n];
 			for (int j = 0; j < n; j++) {
 				A[j] = scan.nextInt();
+			}
+			for (int j = 0; j < 101; j++) {
+				for (int k = 0; k < 11; k++) {
+					cache[j][k] = -1;
+				}
 			}
 		}
 		
