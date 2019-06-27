@@ -60,5 +60,9 @@ public class Main {
 		}
 		
 		cache[from][parts] = INF;
+		
+		for (int partSize = 1; from + partSize <= n; partSize++) {
+			
+		}
 	}
 }
