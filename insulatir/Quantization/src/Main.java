@@ -36,4 +36,8 @@ public class Main {
 			pSqSum[i] = pSqSum[i-1] + A[i] * A[i];
 		}
 	}
+	
+	public static int minError(int lo, int hi) {
+		
+	}
 }
