@@ -46,6 +46,8 @@ public class Main {
 	}
 	
 	public static int quantize(int from, int parts) {
-		
+		if (from == n) {
+			return 0;
+		}
 	}
 }
