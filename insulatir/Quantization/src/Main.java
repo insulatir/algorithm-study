@@ -58,5 +58,7 @@ public class Main {
 		if (cache[from][parts] != -1) {
 			return cache[from][parts];
 		}
+		
+		cache[from][parts] = INF;
 	}
 }
