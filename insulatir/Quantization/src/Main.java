@@ -38,6 +38,6 @@ public class Main {
 	}
 	
 	public static int minError(int lo, int hi) {
-		
+		int sum = pSum[hi] - (lo == 0 ? 0 : pSum[lo-1]);
 	}
 }
