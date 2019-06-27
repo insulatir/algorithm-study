@@ -5,6 +5,7 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		
 		int n = scan.nextInt();
+		int[] tile = new int[1001];
 		
 		scan.close();
 	}
