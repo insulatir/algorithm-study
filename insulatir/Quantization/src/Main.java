@@ -50,5 +50,9 @@ public class Main {
 		if (from == n) {
 			return 0;
 		}
+		
+		if (parts == 0) {
+			return INF;
+		}
 	}
 }
