@@ -3,6 +3,7 @@ public class Main {
 	static int n = 0;
 	static int[] A;
 	static int[][] cache = new int[101][11];
+	static int[] pSum = new int[101];
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -24,5 +25,4 @@ public class Main {
 		
 		scan.close();
 	}
-
 }
