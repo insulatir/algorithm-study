@@ -64,5 +64,7 @@ public class Main {
 		for (int partSize = 1; from + partSize <= n; partSize++) {
 			cache[from][parts] = Math.min(cache[from][parts], minError(from, from + partSize - 1) + quantize(from + partSize, parts - 1));
 		}
+		
+		return cache[from][parts];
 	}
 }
