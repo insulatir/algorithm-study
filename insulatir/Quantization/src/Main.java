@@ -5,6 +5,7 @@ public class Main {
 	static int[][] cache = new int[101][11];
 	static int[] pSum = new int[101];
 	static int[] pSqSum = new int[101];
+	static int INF = 987654321;
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
