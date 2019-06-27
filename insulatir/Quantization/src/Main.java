@@ -25,6 +25,7 @@ public class Main {
 			}
 			
 			precalc();
+			System.out.println(quantize(0, S));
 		}
 		
 		scan.close();
