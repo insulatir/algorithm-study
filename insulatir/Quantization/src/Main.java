@@ -39,5 +39,6 @@ public class Main {
 	
 	public static int minError(int lo, int hi) {
 		int sum = pSum[hi] - (lo == 0 ? 0 : pSum[lo-1]);
+		int sqSum = pSqSum[hi] - (lo == 0 ? 0 : pSqSum[lo-1]);
 	}
 }
