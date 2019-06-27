@@ -23,6 +23,8 @@ public class Main {
 					cache[j][k] = -1;
 				}
 			}
+			
+			precalc();
 		}
 		
 		scan.close();
