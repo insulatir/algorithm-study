@@ -1,6 +1,7 @@
 import java.util.*;
 public class Main {
 	static int n = 0;
+	static int[] A;
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
