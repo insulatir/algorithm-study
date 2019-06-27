@@ -26,4 +26,14 @@ public class Main {
 		
 		scan.close();
 	}
+	
+	public static void precalc() {
+		Arrays.sort(A);
+		pSum[0] = A[0];
+		pSqSum[0] = A[0] * A[0];
+		for (int i = 1; i < n; i++) {
+			pSum[i] = pSum[i-1] + A[i];
+			pSqSum[i] = pSqSum[i-1] + A[i] * A[i];
+		}
+	}
 }
