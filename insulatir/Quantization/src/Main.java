@@ -44,4 +44,8 @@ public class Main {
 		int ret = sqSum - 2 * m * sum + m * m * (hi - lo + 1);
 		return ret;
 	}
+	
+	public static int quantize(int from, int parts) {
+		
+	}
 }
