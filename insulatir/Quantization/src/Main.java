@@ -11,6 +11,9 @@ public class Main {
 			n = scan.nextInt();
 			int S = scan.nextInt();
 			A = new int[n];
+			for (int j = 0; j < n; j++) {
+				A[j] = scan.nextInt();
+			}
 		}
 		
 		scan.close();
