@@ -54,5 +54,9 @@ public class Main {
 		if (parts == 0) {
 			return INF;
 		}
+		
+		if (cache[from][parts] != -1) {
+			return cache[from][parts];
+		}
 	}
 }
