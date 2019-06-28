@@ -20,4 +20,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static int poly(int n, int first) {
+		
+	}
 }
