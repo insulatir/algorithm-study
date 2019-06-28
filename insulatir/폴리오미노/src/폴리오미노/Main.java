@@ -30,5 +30,8 @@ public class Main {
 		}
 		
 		cache[n][first] = 0;
+		for (int second = 1; second <= n-first; second++) {
+			
+		}
 	}
 }
