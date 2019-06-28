@@ -46,5 +46,9 @@ public class Main {
 		if (y == n-1) {
 			return 1;
 		}
+		
+		if (countCache[y][x] != -1) {
+			return countCache[y][x];
+		}
 	}
 }
