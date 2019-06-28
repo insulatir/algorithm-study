@@ -10,11 +10,11 @@ public class Main {
 		int C = scan.nextInt();
 		for (int i = 0; i < C; i++) {
 			int n = scan.nextInt();
-		}
 		
-		for (int j = 0; j < 101; j++) {
-			cache[j] = -1;
-			cache2[j] = -1;
+			for (int j = 0; j < 101; j++) {
+				cache[j] = -1;
+				cache2[j] = -1;
+			}
 		}
 		
 		scan.close();
