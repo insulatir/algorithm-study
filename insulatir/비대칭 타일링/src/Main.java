@@ -28,5 +28,6 @@ public class Main {
 		if (cache[width] != -1) {
 			return cache[width];
 		}
+		return cache[width] = (tiling(width-2) + tiling(width-1)) % MOD;
 	}
 }
