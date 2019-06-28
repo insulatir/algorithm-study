@@ -25,6 +25,8 @@ public class Main {
 		if (cache[start+1] != -1) {
 			return cache[start+1];
 		}
+		
+		cache[start+1] = 1;
 	}
 
 }
