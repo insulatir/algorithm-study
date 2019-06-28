@@ -49,5 +49,8 @@ public class Main {
 			seq.add(S[start]);
 		}
 		int next = choices[start+1];
+		if (next != -1) {
+			
+		}
 	}
 }
