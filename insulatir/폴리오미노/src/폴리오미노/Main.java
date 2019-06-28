@@ -28,5 +28,7 @@ public class Main {
 		if (cache[n][first] != -1) {
 			return cache[n][first];
 		}
+		
+		cache[n][first] = 0;
 	}
 }
