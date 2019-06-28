@@ -30,7 +30,10 @@ public class Main {
 		int bestNext = -1;
 		for (int next = start+1; next < n; next++) {
 			if (start == -1 || S[start] < S[next]) {
-				
+				int cand = lis(next) + 1;
+				if (cand > cache[start+1]) {
+					
+				}
 			}
 		}
 		
