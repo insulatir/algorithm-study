@@ -33,5 +33,9 @@ public class Main {
 		if (y == n-1) {
 			return triangle[y][x];
 		}
+		
+		if (cache[y][x] != -1) {
+			return cache[y][x];
+		}
 	}
 }
