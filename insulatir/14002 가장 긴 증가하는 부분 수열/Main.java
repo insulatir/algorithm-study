@@ -18,6 +18,8 @@ public class Main {
 			choices[i] = -1;
 		}
 		
+		System.out.println(lis(-1)-1);
+		
 		scan.close();
 	}
 	
