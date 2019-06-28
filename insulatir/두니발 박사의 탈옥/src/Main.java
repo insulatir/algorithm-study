@@ -20,6 +20,9 @@ public class Main {
 			for (int j = 0; j < n; j++) {
 				for (int k = 0; k < n; k++) {
 					connected[j][k] = scan.nextInt();
+					if (connected[j][k] == 1) {
+						deg[j] += 1;
+					}
 				}
 			}
 		}
