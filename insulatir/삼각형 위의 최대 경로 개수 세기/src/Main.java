@@ -9,12 +9,14 @@ public class Main {
 		int C = scan.nextInt();
 		for (int k = 0; k < C; k++) {
 			n = scan.nextInt();
-		}
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j <= i; j++) {
-				triangle[i][j] = scan.nextInt();
+		
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j <= i; j++) {
+					triangle[i][j] = scan.nextInt();
+				}
 			}
 		}
+		
 		scan.close();
 	}
 
