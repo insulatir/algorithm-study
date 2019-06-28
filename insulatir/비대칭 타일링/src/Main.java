@@ -39,5 +39,6 @@ public class Main {
 		int ret = tiling(width);
 		ret = (ret - tiling(width/2) + MOD) % MOD;
 		ret = (ret - tiling(width/2-1) + MOD) % MOD;
+		return ret;
 	}
 }
