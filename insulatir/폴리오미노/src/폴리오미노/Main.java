@@ -38,5 +38,7 @@ public class Main {
 			cache[n][first] += add;
 			cache[n][first] %= MOD;
 		}
+		
+		return cache[n][first];
 	}
 }
