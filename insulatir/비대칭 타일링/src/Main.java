@@ -30,4 +30,8 @@ public class Main {
 		}
 		return cache[width] = (tiling(width-2) + tiling(width-1)) % MOD;
 	}
+	
+	public static int asymmetric(int width) {
+		
+	}
 }
