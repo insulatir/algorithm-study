@@ -2,6 +2,7 @@ import java.util.*;
 public class Main {
 	static int[] cache = new int[101];
 	static int[] cache2 = new int[101];
+	static int MOD = 1000000007;
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
