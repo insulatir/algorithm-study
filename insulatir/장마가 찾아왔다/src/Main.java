@@ -22,4 +22,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static double climb(int days, int climbed) {
+		
+	}
 }
