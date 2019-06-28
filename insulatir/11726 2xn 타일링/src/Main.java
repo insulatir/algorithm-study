@@ -8,6 +8,7 @@ public class Main {
 		int[] tile = new int[1001];
 		
 		tile[0] = 1;
+		tile[1] = 1;
 		
 		scan.close();
 	}
