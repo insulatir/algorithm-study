@@ -23,6 +23,8 @@ public class Main {
 	}
 
 	public static double climb(int days, int climbed) {
-		
+		if (days == m) {
+			return climbed >= n ? 1 : 0;
+		}
 	}
 }
