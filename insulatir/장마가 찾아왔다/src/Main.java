@@ -26,5 +26,9 @@ public class Main {
 		if (days == m) {
 			return climbed >= n ? 1 : 0;
 		}
+		
+		if (cache[days][climbed] != -1) {
+			return cache[days][climbed]; 
+		}
 	}
 }
