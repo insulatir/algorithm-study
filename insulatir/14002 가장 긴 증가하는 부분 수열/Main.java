@@ -27,6 +27,7 @@ public class Main {
 		}
 		
 		cache[start+1] = 1;
+		int bestNext = -1;
 	}
 
 }
