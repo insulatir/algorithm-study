@@ -31,7 +31,8 @@ public class Main {
 		
 		cache[n][first] = 0;
 		for (int second = 1; second <= n-first; second++) {
-			
+			int add = second + first - 1;
+			add *= poly(n - first, second);
 		}
 	}
 }
