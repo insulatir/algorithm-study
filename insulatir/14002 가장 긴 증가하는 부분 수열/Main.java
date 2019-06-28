@@ -39,6 +39,7 @@ public class Main {
 		}
 		
 		choices[start+1] = bestNext;
+		return cache[start+1];
 	}
 
 }
