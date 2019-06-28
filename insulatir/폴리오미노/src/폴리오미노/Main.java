@@ -24,5 +24,9 @@ public class Main {
 		if (n == first) {
 			return 1;
 		}
+		
+		if (cache[n][first] != -1) {
+			return cache[n][first];
+		}
 	}
 }
