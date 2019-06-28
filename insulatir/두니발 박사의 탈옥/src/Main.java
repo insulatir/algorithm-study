@@ -3,6 +3,7 @@ public class Main {
 	static int n, d, p;
 	static int[] deg = new int[51];
 	static int[][] connected = new int[51][51];
+	static double[][] cache = new double[51][101];
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -23,6 +24,12 @@ public class Main {
 					if (connected[j][k] == 1) {
 						deg[j] += 1;
 					}
+				}
+			}
+			
+			for (int j = 0; j < 51; j++) {
+				for (int k = 0; k < 101; k++) {
+					cache[j][k] = -1;
 				}
 			}
 		}
