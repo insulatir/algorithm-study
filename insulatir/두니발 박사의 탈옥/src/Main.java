@@ -43,6 +43,8 @@ public class Main {
 	}
 
 	public static double search(int here, int days) {
-		
+		if (days == 0) {
+			return (here == p ? 1.0 : 0.0);
+		}
 	}
 }
