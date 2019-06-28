@@ -33,7 +33,7 @@ public class Main {
 	
 	public static int asymmetric(int width) {
 		if (width % 2 == 1) {
-			
+			return (tiling(width) - tiling(width/2) + MOD) % MOD;
 		}
 	}
 }
