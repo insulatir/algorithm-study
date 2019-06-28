@@ -24,5 +24,9 @@ public class Main {
 		if (width <= 1) {
 			return 1;
 		}
+		
+		if (cache[width] != -1) {
+			return cache[width];
+		}
 	}
 }
