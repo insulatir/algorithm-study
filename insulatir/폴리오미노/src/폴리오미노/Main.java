@@ -19,7 +19,7 @@ public class Main {
 			
 			int result = 0;
 			for (int j = 1; j <= n; j++) {
-				
+				result = (result + poly(n, j)) % MOD;
 			}
 		}
 		
