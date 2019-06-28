@@ -21,6 +21,9 @@ public class Main {
 		System.out.println(lis(-1)-1);
 		List<Integer> seq = new ArrayList<Integer>();
 		reconstruct(-1, seq);
+		for (int i = 0; i < seq.size(); i++) {
+			System.out.print(seq.get(i) + " ");
+		}
 		
 		scan.close();
 	}
