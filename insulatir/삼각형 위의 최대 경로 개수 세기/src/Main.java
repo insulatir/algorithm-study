@@ -53,7 +53,7 @@ public class Main {
 		
 		countCache[y][x] = 0;
 		if (path(y+1, x+1) >= path(y+1, x)) {
-			
+			countCache[y][x] += count(y+1, x+1);
 		}
 	}
 }
