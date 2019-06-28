@@ -33,6 +33,7 @@ public class Main {
 				int cand = lis(next) + 1;
 				if (cand > cache[start+1]) {
 					cache[start+1] = cand;
+					bestNext = next;
 				}
 			}
 		}
