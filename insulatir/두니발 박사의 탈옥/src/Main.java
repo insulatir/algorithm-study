@@ -36,6 +36,7 @@ public class Main {
 			int t = scan.nextInt();
 			for (int j = 0; j < t; j++) {
 				q = scan.nextInt();
+				System.out.println(search(q, d));
 			}
 		}
 		
