@@ -32,7 +32,7 @@ public class Main {
 			if (start == -1 || S[start] < S[next]) {
 				int cand = lis(next) + 1;
 				if (cand > cache[start+1]) {
-					
+					cache[start+1] = cand;
 				}
 			}
 		}
