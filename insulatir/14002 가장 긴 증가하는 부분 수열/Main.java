@@ -20,6 +20,7 @@ public class Main {
 		
 		System.out.println(lis(-1)-1);
 		List<Integer> seq = new ArrayList<Integer>();
+		reconstruct(-1, seq);
 		
 		scan.close();
 	}
