@@ -57,5 +57,7 @@ public class Main {
 				cache[here][days] += search(there, days-1) / deg[there];
 			}
 		}
+		
+		return cache[here][days];
 	}
 }
