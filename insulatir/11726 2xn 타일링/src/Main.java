@@ -13,6 +13,8 @@ public class Main {
 			tile[i] = (tile[i-1] + tile[i-2]) % 10007;
 		}
 		
+		System.out.print(tile[n]);
+		
 		scan.close();
 	}
 
