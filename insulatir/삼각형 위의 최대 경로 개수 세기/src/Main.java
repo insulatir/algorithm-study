@@ -24,6 +24,8 @@ public class Main {
 					countCache[i][j] = -1;
 				}
 			}
+			
+			System.out.println(count(0, 0));
 		}
 		
 		scan.close();
