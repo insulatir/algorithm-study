@@ -2,6 +2,7 @@ package 폴리오미노;
 import java.util.*;
 public class Main {
 	static int[][] cache = new int[101][101];
+	static int MOD = 10000000;
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -33,6 +34,7 @@ public class Main {
 		for (int second = 1; second <= n-first; second++) {
 			int add = second + first - 1;
 			add *= poly(n - first, second);
+			add %= MOD;
 		}
 	}
 }
