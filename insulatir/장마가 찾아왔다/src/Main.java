@@ -17,6 +17,8 @@ public class Main {
 					cache[j][k] =  -1;
 				}
 			}
+			
+			System.out.println(climb(0, 0));
 		}
 		
 		scan.close();
