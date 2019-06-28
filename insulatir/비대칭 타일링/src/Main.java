@@ -41,4 +41,8 @@ public class Main {
 		ret = (ret - tiling(width/2-1) + MOD) % MOD;
 		return ret;
 	}
+	
+	public static int asymmetric2(int width) {
+		
+	}
 }
