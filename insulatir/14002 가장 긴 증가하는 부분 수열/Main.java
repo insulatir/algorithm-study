@@ -44,4 +44,7 @@ public class Main {
 		return cache[start+1];
 	}
 
+	public static void reconstruct(int start, List<Integer> seq) {
+		
+	}
 }
