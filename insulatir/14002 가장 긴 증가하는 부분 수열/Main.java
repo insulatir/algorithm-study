@@ -50,7 +50,7 @@ public class Main {
 		}
 		int next = choices[start+1];
 		if (next != -1) {
-			
+			reconstruct(next, seq);
 		}
 	}
 }
