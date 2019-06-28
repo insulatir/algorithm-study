@@ -21,6 +21,8 @@ public class Main {
 	}
 
 	public static int tiling(int width) {
-		
+		if (width <= 1) {
+			return 1;
+		}
 	}
 }
