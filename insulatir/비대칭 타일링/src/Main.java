@@ -15,6 +15,9 @@ public class Main {
 				cache[j] = -1;
 				cache2[j] = -1;
 			}
+			
+			System.out.println(asymmetric(n));
+			System.out.println(asymmetric2(n));
 		}
 		
 		scan.close();
