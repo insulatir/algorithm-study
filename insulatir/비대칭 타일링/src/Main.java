@@ -50,5 +50,7 @@ public class Main {
 		if (cache2[width] != -1) {
 			return cache2[width];
 		}
+		
+		cache2[width] = asymmetric2(width-2) % MOD;
 	}
 }
