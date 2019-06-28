@@ -1,5 +1,7 @@
 import java.util.*;
 public class Main {
+	static int[] cache = new int[101];
+	static int[] cache2 = new int[101];
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -7,6 +9,11 @@ public class Main {
 		int C = scan.nextInt();
 		for (int i = 0; i < C; i++) {
 			int n = scan.nextInt();
+		}
+		
+		for (int j = 0; j < 101; j++) {
+			cache[j] = -1;
+			cache2[j] = -1;
 		}
 		
 		scan.close();
