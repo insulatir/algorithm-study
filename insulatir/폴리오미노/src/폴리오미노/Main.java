@@ -16,6 +16,8 @@ public class Main {
 					cache[j][k] = -1;
 				}
 			}
+			
+			int result = 0;
 		}
 		
 		scan.close();
