@@ -21,6 +21,8 @@ public class Main {
 	}
 
 	public static int poly(int n, int first) {
-		
+		if (n == first) {
+			return 1;
+		}
 	}
 }
