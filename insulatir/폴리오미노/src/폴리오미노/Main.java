@@ -35,6 +35,8 @@ public class Main {
 			int add = second + first - 1;
 			add *= poly(n - first, second);
 			add %= MOD;
+			cache[n][first] += add;
+			cache[n][first] %= MOD;
 		}
 	}
 }
