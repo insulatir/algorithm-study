@@ -30,5 +30,7 @@ public class Main {
 		if (cache[days][climbed] != -1) {
 			return cache[days][climbed]; 
 		}
+		
+		return cache[days][climbed] = 0.25 * climb(days+1, climbed+1) + 0.75 * climb(days+1, climbed+2);
 	}
 }
