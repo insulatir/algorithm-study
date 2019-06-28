@@ -42,4 +42,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static double search(int here, int days) {
+		
+	}
 }
