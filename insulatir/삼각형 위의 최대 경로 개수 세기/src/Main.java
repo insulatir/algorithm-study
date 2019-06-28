@@ -37,5 +37,7 @@ public class Main {
 		if (cache[y][x] != -1) {
 			return cache[y][x];
 		}
+		
+		cache[y][x] = Math.max(path(y+1, x), path(y+1, x+1)) + triangle[y][x];
 	}
 }
