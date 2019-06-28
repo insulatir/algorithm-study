@@ -20,4 +20,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static int tiling(int width) {
+		
+	}
 }
