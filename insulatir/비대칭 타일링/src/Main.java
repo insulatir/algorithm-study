@@ -53,5 +53,6 @@ public class Main {
 		
 		cache2[width] = asymmetric2(width-2) % MOD;
 		cache2[width] = (cache2[width] + asymmetric2(width-4)) % MOD;
+		cache2[width] = (cache2[width] + tiling(width-3)) % MOD;
 	}
 }
