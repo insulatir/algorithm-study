@@ -29,4 +29,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static int path(int y, int x) {
+		
+	}
 }
