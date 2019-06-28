@@ -1,6 +1,6 @@
 import java.util.*;
 public class Main {
-	static int n, d, p;
+	static int n, d, p, q;
 	static int[] deg = new int[51];
 	static int[][] connected = new int[51][51];
 	static double[][] cache = new double[51][101];
@@ -34,6 +34,9 @@ public class Main {
 			}
 			
 			int t = scan.nextInt();
+			for (int j = 0; j < t; j++) {
+				q = scan.nextInt();
+			}
 		}
 		
 		scan.close();
