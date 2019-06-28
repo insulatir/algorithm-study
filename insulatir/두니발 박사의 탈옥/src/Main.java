@@ -54,7 +54,7 @@ public class Main {
 		cache[here][days] = 0.0;
 		for (int there = 0; there < n; there++) {
 			if (connected[here][there] == 1) {
-				
+				cache[here][days] += search(there, days-1) / deg[there];
 			}
 		}
 	}
