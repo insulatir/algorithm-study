@@ -45,6 +45,8 @@ public class Main {
 	}
 
 	public static void reconstruct(int start, List<Integer> seq) {
-		
+		if (start != -1) {
+			
+		}
 	}
 }
