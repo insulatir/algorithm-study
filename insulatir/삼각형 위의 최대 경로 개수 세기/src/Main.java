@@ -30,6 +30,8 @@ public class Main {
 	}
 
 	public static int path(int y, int x) {
-		
+		if (y == n-1) {
+			return triangle[y][x];
+		}
 	}
 }
