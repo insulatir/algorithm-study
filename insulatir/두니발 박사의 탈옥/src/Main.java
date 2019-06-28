@@ -52,5 +52,10 @@ public class Main {
 		}
 
 		cache[here][days] = 0.0;
+		for (int there = 0; there < n; there++) {
+			if (connected[here][there] == 1) {
+				
+			}
+		}
 	}
 }
