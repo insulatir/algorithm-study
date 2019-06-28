@@ -43,6 +43,8 @@ public class Main {
 	}
 	
 	public static int count(int y, int x) {
-		
+		if (y == n-1) {
+			return 1;
+		}
 	}
 }
