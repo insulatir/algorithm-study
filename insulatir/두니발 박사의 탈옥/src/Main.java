@@ -32,6 +32,8 @@ public class Main {
 					cache[j][k] = -1;
 				}
 			}
+			
+			int t = scan.nextInt();
 		}
 		
 		scan.close();
