@@ -32,6 +32,8 @@ public class Main {
 	}
 	
 	public static int asymmetric(int width) {
-		
+		if (width % 2 == 1) {
+			
+		}
 	}
 }
