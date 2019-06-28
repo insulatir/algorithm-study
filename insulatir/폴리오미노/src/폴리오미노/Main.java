@@ -21,6 +21,8 @@ public class Main {
 			for (int j = 1; j <= n; j++) {
 				result = (result + poly(n, j)) % MOD;
 			}
+			
+			System.out.println(result);
 		}
 		
 		scan.close();
