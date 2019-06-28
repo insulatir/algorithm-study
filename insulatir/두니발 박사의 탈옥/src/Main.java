@@ -50,5 +50,7 @@ public class Main {
 		if (cache[here][days] > -0.5) {
 			return cache[here][days];
 		}
+
+		cache[here][days] = 0.0;
 	}
 }
