@@ -46,5 +46,9 @@ public class Main {
 		if (days == 0) {
 			return (here == p ? 1.0 : 0.0);
 		}
+		
+		if (cache[here][days] > -0.5) {
+			return cache[here][days];
+		}
 	}
 }
