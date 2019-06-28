@@ -50,5 +50,7 @@ public class Main {
 		if (countCache[y][x] != -1) {
 			return countCache[y][x];
 		}
+		
+		countCache[y][x] = 0;
 	}
 }
