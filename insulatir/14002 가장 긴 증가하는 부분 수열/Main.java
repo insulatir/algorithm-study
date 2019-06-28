@@ -28,6 +28,12 @@ public class Main {
 		
 		cache[start+1] = 1;
 		int bestNext = -1;
+		for (int next = start+1; next < n; next++) {
+			if (start == -1 || S[start] < S[next]) {
+				
+			}
+		}
+		
 	}
 
 }
