@@ -22,7 +22,9 @@ public class Main {
 	}
 	
 	public static int lis(int start) {
-		
+		if (cache[start+1] != -1) {
+			return cache[start+1];
+		}
 	}
 
 }
