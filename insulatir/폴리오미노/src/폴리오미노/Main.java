@@ -1,4 +1,3 @@
-package 폴리오미노;
 import java.util.*;
 public class Main {
 	static int[][] cache = new int[101][101];
