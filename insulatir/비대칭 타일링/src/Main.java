@@ -35,5 +35,7 @@ public class Main {
 		if (width % 2 == 1) {
 			return (tiling(width) - tiling(width/2) + MOD) % MOD;
 		}
+		
+		int ret = tiling(width);
 	}
 }
