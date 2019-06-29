@@ -29,5 +29,9 @@ public class Main {
 		if (item == n) {
 			return 0;
 		}
+		
+		if (cache[capacity][item] != -1)  {
+			return cache[capacity][item];
+		}
 	}
 }
