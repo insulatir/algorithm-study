@@ -38,5 +38,7 @@ public class Main {
 		if (capacity >= weight[item]) {
 			cache[capacity][item] = Math.max(cache[capacity][item], pack(capacity - weight[item], item + 1) + value[item]);
 		}
+		
+		return cache[capacity][item];
 	}
 }
