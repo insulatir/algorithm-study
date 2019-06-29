@@ -22,6 +22,8 @@ public class Main {
 			}
 		}
 		
+		System.out.println(pack(capacity, 0));
+		
 		scan.close();
 	}
 
