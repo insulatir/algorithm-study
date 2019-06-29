@@ -25,4 +25,7 @@ public class Main {
 		scan.close();
 	}
 
+	public static int pack(int capacity, int item) {
+		
+	}
 }
