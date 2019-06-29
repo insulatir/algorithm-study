@@ -35,5 +35,8 @@ public class Main {
 		}
 		
 		cache[capacity][item] = pack(capacity, item + 1);
+		if (capacity >= weight[item]) {
+			
+		}
 	}
 }
