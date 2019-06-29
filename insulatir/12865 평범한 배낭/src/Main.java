@@ -26,6 +26,8 @@ public class Main {
 	}
 
 	public static int pack(int capacity, int item) {
-		
+		if (item == n) {
+			return 0;
+		}
 	}
 }
