@@ -33,5 +33,7 @@ public class Main {
 		if (cache[capacity][item] != -1)  {
 			return cache[capacity][item];
 		}
+		
+		cache[capacity][item] = pack(capacity, item + 1);
 	}
 }
